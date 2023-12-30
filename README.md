@@ -36,3 +36,23 @@ public class Main {
     }
 }
 ```
+
+Driver for mave
+```Markdown
+<dependencies>
+    <!-- Cassandra Driver -->
+    <dependency>
+        <groupId>com.datastax.oss</groupId>
+        <artifactId>java-driver-core</artifactId>
+        <version>4.14.0</version> <!-- Güncel sürümü kontrol edin -->
+    </dependency>
+</dependencies>
+```
+
+Driver for Gradlle
+```Markdown
+dependencies {
+    // Cassandra Driver
+    implementation 'com.datastax.oss:java-driver-core:4.14.0' // Güncel sürümü kontrol edin
+}
+```
